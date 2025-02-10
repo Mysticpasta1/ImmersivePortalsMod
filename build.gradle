@@ -89,6 +89,9 @@ dependencies {
     modCompileOnly "maven.modrinth:modmenu:${modmenu_version}"
     modLocalRuntime "maven.modrinth:modmenu:${modmenu_version}"
 
+    modCompileOnly "${project.simplevoicechat_path}"
+    modLocalRuntime "${project.simplevoicechat_path}"
+
     modCompileOnly "${project.sodium_path}"
 
     modCompileOnly "${project.iris_path}"
